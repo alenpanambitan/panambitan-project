@@ -28,7 +28,10 @@ export default function Player() {
             /> */}
             <Image style={styles.img} source={require('../assets/coco.jpg')} />
             <View style={styles.pbtn} >
-                <TouchableOpacity style={styles.btn}>
+                <TouchableOpacity 
+                    style={styles.btn}
+                    source = {require('../assets/previous.png')}    
+                >
                     <Text style={styles.text}>prev</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.btn}>
